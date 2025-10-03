@@ -1,3 +1,5 @@
+# Subclase de Empleado.
+
 from models.base_empleado import Empleado
 
 class Administrador(Empleado):
