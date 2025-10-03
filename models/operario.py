@@ -8,5 +8,5 @@ class Operario(Empleado):
         return "Operario"
 
     def calcular_pago(self):
-        # Operario cobra solo sueldo base (por ahora)
+        # Operario cobra solo sueldo base (por ahora) con 2 decimales
         return round(self.get_sueldo_base(), 2)
